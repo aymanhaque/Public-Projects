@@ -118,7 +118,8 @@ print('Note: Currently only works with gmail accounts. If done with gmail accoun
 while True:
     try:
         
-        email,password = 'muhd.ayman.haque@gmail.com','sjvoisflccfgvimz'#input('Enter Email:\n'),input('Enter Password:\n')
+        # email,password = 'muhd.ayman.haque@gmail.com','sjvoisflccfgvimz'
+        input('Enter Email:\n'),input('Enter Password:\n')
         send_mail.login(email,password)
         get_mail.login(email,password)
         break
